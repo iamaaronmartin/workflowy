@@ -1,0 +1,169 @@
+body * {
+    color: #002322;
+    font-family: "DegularText-Regular";
+    font-size: 16px;
+}
+
+a.expand > svg {
+    color: #990000 !important;
+}
+
+
+
+/* Headers ============================================ */
+
+.project.selected > .name > .content > .innerContentContainer,
+.project.selected > .name > .content > .innerContentContainer > time {
+    background-color: transparent !important;
+    color: #0500FF !important;
+    font-family: "SwearBanner-Regular" !important;
+    font-size: 40px !important;
+    text-decoration: none !important;
+    border-bottom: 0px solid !important;
+}
+
+.project.selected > .name > .content > .innerContentContainer > .contentTag {
+    font-family: "SwearBanner-Regular" !important;
+    font-size: 60% !important;
+    text-decoration: none !important;
+}
+
+.project.selected > .name > .content > .innerContentContainer > .contentTag > .contentTagText {
+    font-family: "SwearBanner-Regular" !important;
+    font-size: 100% !important;
+    text-decoration: none !important;
+    border-bottom: 0px solid !important;
+}
+
+
+
+/* Tags ============================================ */
+
+.contentTag {
+    background-color: #F1F3F3;
+    font-size: 12px !important;
+    margin: 0 2px !important;
+    padding: 2px 4px !important;
+}
+
+.contentTag > .contentTagText {
+    color: #002322 !important;
+    font-size: 13px !important;
+    padding-left: 2px;
+    text-decoration: none !important;
+}
+
+.contentTag[title="Filter @todo"] {
+    background-color: #61C27C;
+    color: #fff !important;}
+
+.contentTag[title="Filter @todo"] > .contentTagText {
+    color: #fff !important;
+}
+
+.contentTag[title="Filter @share"],
+.contentTag[title="Filter @share-design"],
+.contentTag[title="Filter @share-leads"] {
+    background-color: #5258F5;
+    color: #fff !important;
+}
+
+.contentTag[title="Filter @share"] > .contentTagText,
+.contentTag[title="Filter @share-design"] > .contentTagText,
+.contentTag[title="Filter @share-leads"] > .contentTagText {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.contentTag[title="Filter @openquestion"] {
+    background-color: #E05A32;
+    color: #fff !important;}
+
+.contentTag[title="Filter @openquestion"] > .contentTagText {
+    color: #fff !important;
+}
+
+
+
+/* Project list ============================================ */
+
+.project {
+    line-height: 1em;
+    margin: 8px 0px;
+}
+
+.project > .name > .content {
+    padding-top: 2px !important;
+}
+
+
+
+/* General ============================================ */
+
+.notes > .content > .innerContentContainer {
+    color: #5E7372;
+    font-family: "SwearText-Regular" !important;
+    font-size: 15px !important;
+    line-height: 1.3em;
+}
+
+a.bullet svg * {
+    color: #5E7372;
+}
+
+a.expand svg * {
+    color: #E7E9E9;
+}
+
+a.contentLink::before {
+    border-radius: 18px;
+    color: #fff;
+    content: "🔗";
+    margin-right: 8px;
+}
+
+a.contentLink {
+    color: #5258F5 !important;
+    font-family: "DegularText-Regular" !important;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+
+.itemMenu svg * {
+    color: #EB887F;
+}
+
+.project.collapsed > .name > a.bullet {
+    background-color: #E7E9E9 !important;
+}
+
+.content > .template > button {
+    background-color: #0500FF;
+    cursor: crosshair !important;
+    line-height: 1em !important;
+    padding: 0 12px !important;
+}
+
+.content > .template > button > span {
+    color: #fff !important;
+    font-size: 10px;
+    line-height: 1em !important;
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+b { font-family: "DegularText-Bold"; }
+i { font-family: "SwearDeck-Italic"; font-size: 120%; }
+u { text-decoration: none !important; 
+background-color: #F8EFCF;
+    padding: 4px 0px;
+}
+
+b > i { font-family: "DegularText-BoldItalic"; }
+b > u { font-family: "SwearDeck-Bold"; font-size: 120%; text-decoration: none !important; }
+i > u { font-family: "SwearDeck-BoldItalic"; font-size: 120%; text-decoration: none !important; }
+b > i > u { font-family: "SwearDeck-BoldItalic"; font-size: 120%; text-decoration: none !important; }
+
+
