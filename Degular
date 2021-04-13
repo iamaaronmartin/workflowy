@@ -167,15 +167,12 @@ a.contentLink {
 }
 
 b { font-family: "DegularText-Bold"; }
-i { font-family: "SwearDeck-Italic"; font-size: 120%; }
-u { text-decoration: none !important; 
-background-color: #F8EFCF;
-    padding: 4px 0px;
-}
+i { font-family: "SwearDeck-Italic"; font-size: 100%; }
+u { text-decoration: none !important; background-color: #F8EFCF; padding: 4px 0px; }
 
 b > i { font-family: "DegularText-BoldItalic"; }
-b > u { font-family: "SwearDeck-Bold"; font-size: 120%; text-decoration: none !important; }
-i > u { font-family: "SwearDeck-BoldItalic"; font-size: 120%; text-decoration: none !important; }
-b > i > u { font-family: "SwearDeck-BoldItalic"; font-size: 120%; text-decoration: none !important; }
+b > u { font-family: "SwearDeck-Bold"; text-decoration: none !important; }
+i > u { font-family: "SwearDeck-BoldItalic"; text-decoration: none !important; }
+b > i > u { font-family: "SwearDeck-BoldItalic"; text-decoration: none !important; }
 
 
