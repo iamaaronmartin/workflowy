@@ -47,6 +47,12 @@ a.expand > svg {
     border-bottom: 0px solid !important;
 }
 
+.project.selected > .notes {
+    margin-top: 0px !important;
+    margin-bottom: 40px !important;
+    padding-top: 0px !important;
+}
+
 
 
 /* Tags ============================================ */
