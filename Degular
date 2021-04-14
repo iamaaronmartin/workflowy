@@ -121,6 +121,25 @@ body * {
 
 /* General ============================================ */
 
+.template {
+    margin-top: -2px;
+}
+
+.template > button {
+    margin-left: 2px !important;
+}
+
+.template > button > span {
+    border-radius: 50%;
+    display: block;
+    font-family: 'DegularText-Bold' !important;
+    margin-top: -2px !important;
+}
+
+
+
+/* General ============================================ */
+
 .notes > .content > .innerContentContainer {
     color: #5E7372;
     font-family: "SwearText-Regular" !important;
