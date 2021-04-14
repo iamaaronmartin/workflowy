@@ -16,9 +16,6 @@ body * {
     font-size: 16px;
 }
 
-a.expand > svg {
-    color: #990000 !important;
-}
 
 
 
@@ -69,6 +66,12 @@ a.expand > svg {
     font-size: 13px !important;
     padding-left: 2px;
     text-decoration: none !important;
+}
+
+.contentTag:hover,
+.contentTag:hover > .contentTagText {
+    background-color: #002322 !important;
+    color: #F1F3F3 !important;
 }
 
 .contentTag[title="Filter @todo"] {
