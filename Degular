@@ -119,6 +119,32 @@ body * {
 }
 
 
+/* Done ============================================ */
+
+.project.done > .name > .content > .innerContentContainer {
+    color: #61C27C;
+}
+
+.project.done > .name > a.bullet > svg {
+    display: none;
+}
+
+.project.done.collapsed > .name > a.bullet {
+    background-color: rgba(97, 194, 124, 0) !important;
+}
+
+.project.done > .name > a.bullet:before {
+    color: #61C27C;
+    content: " ✔︎";
+    font-size: 80%;
+    margin-left: 4px !important;
+}
+
+.project.done > .name > a.expand * {
+    color: rgba(97, 194, 124, 0.5) !important;
+}
+
+
 
 /* Buttons ============================================ */
 
