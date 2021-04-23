@@ -112,6 +112,12 @@ body * {
     color: #002322 !important;
 }
 
+.contentTag[title="Filter @topofmind"]:hover,
+.contentTag[title="Filter @topofmind"]:hover > .contentTagText {
+    background-color: #002322 !important;
+    color: #F1F3F3 !important;
+}
+
 
 
 /* Project list ============================================ */
