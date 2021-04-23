@@ -104,6 +104,14 @@ body * {
     color: #fff !important;
 }
 
+.contentTag[title="Filter @topofmind"] {
+    background-color: #F7C845;
+    color: #002322 !important;}
+
+.contentTag[title="Filter @topofmind"] > .contentTagText {
+    color: #002322 !important;
+}
+
 
 
 /* Project list ============================================ */
