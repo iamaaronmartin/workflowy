@@ -118,6 +118,20 @@ body * {
     color: #F1F3F3 !important;
 }
 
+    /* Tag search matches */
+
+.contentTag > .contentMatch {
+    font-size: 12px !important;
+
+}
+
+.contentTag > .contentTagText > .contentMatch {
+    color: #002322 !important;
+    font-size: 13px !important;
+    padding-left: 2px;
+    text-decoration: none !important;
+}
+
 
 
 /* Project list ============================================ */
