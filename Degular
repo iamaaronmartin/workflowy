@@ -50,6 +50,12 @@ body * {
     padding-top: 0px !important;
 }
 
+.project.selected.boardColumn > .name > .content > .innerContentContainer,
+.project.selected.boardColumn > .name > .content > .innerContentContainer > time {
+    background-color: transparent !important;
+    font-size: 24px !important;
+}
+
 
 
 /* Tags ============================================ */
@@ -146,6 +152,9 @@ body * {
     padding-top: 4px !important;
 }
 
+.project.boardColumn {
+    flex-basis: 480px !important;
+}
 
 /* Done ============================================ */
 
@@ -243,7 +252,7 @@ a.contentLink {
 
 b { font-family: "DegularText-Bold"; }
 i { font-family: "SwearDeck-Italic"; font-size: 100%; }
-u { text-decoration: none !important; background-color: #F8EFCF; padding: 4px 0px; }
+u { text-decoration: none !important; background-color: #F8EFCF; padding: 2px 4px; }
 
 b > i { font-family: "DegularText-BoldItalic"; }
 b > u { font-family: "SwearDeck-Bold"; text-decoration: none !important; }
