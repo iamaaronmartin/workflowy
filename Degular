@@ -23,7 +23,8 @@ body * {
 
 .project.selected > .name > .content > .innerContentContainer,
 .project.selected > .name > .content > .innerContentContainer > time,
-.project.selected > .name > .content > .innerContentContainer > b {
+.project.selected > .name > .content > .innerContentContainer > b,
+.project.selected > .name > .content > .innerContentContainer > b > time {
     background-color: transparent !important;
     color: #0500FF !important;
     font-family: "SwearBanner-Regular" !important;
