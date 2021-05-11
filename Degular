@@ -22,7 +22,8 @@ body * {
 /* Headers ============================================ */
 
 .project.selected > .name > .content > .innerContentContainer,
-.project.selected > .name > .content > .innerContentContainer > time {
+.project.selected > .name > .content > .innerContentContainer > time,
+.project.selected > .name > .content > .innerContentContainer > b {
     background-color: transparent !important;
     color: #0500FF !important;
     font-family: "SwearBanner-Regular" !important;
@@ -258,5 +259,19 @@ b > i { font-family: "DegularText-BoldItalic"; }
 b > u { font-family: "SwearDeck-Bold"; text-decoration: none !important; }
 i > u { font-family: "SwearDeck-BoldItalic"; text-decoration: none !important; }
 b > i > u { font-family: "SwearDeck-BoldItalic"; text-decoration: none !important; }
+
+b > i > u {
+    background-color: #f1f1f1;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    display: block !important;
+    font-family: "IBMPlexMono";
+    font-size: 80% !important;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 450px;
+    padding: 2px 4px; 
+    text-decoration: none !important;
+}
 
 
