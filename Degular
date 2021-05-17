@@ -276,3 +276,41 @@ b > i > u {
 }
 
 
+
+/* Search results ============================================ */
+
+.terminalMatch > .name > a.bullet,
+.uncompletedDescendantMatches > .name > a.bullet {
+    background-color: #f1f3f3;
+}
+
+.terminalMatch > .name > a.bullet svg,
+.uncompletedDescendantMatches > .name > a.bullet svg,
+.uncompletedDescendantMatches > .name > a.bullet svg * {
+    height: 16px !important;
+    width: 16px !important;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.terminalMatch > .name {
+    color: #c0c8c8 !important;
+    font-size: 13px;
+}
+
+.uncompletedDescendantMatches > .name > .content > .innerContentContainer,
+.uncompletedDescendantMatches > .name > .content > .innerContentContainer > time {
+    color: #c0c8c8 !important;
+    font-size: 13px;
+}
+
+.uncompletedDescendantMatches > .name.fullMatch > .content > .innerContentContainer,
+.uncompletedDescendantMatches > .name.fullMatch > .content > .innerContentContainer > time {
+    color: #002322 !important;
+    font-size: 16px !important;
+}
+
+.task.matches > .fullMatch.matches > .content * > .contentTag > .contentTagText,
+.task.matches > .fullMatch.matches > .content > .innerContentContainer > .contentTag > .contentTagText {
+    color: inherit !important;
+}
