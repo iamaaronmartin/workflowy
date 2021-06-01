@@ -258,8 +258,8 @@ u { text-decoration: none !important; background-color: #F8EFCF; padding: 2px 4p
 
 b > i { font-family: "DegularText-BoldItalic"; }
 b > u { font-family: "SwearDeck-Bold"; text-decoration: none !important; }
-i > u { font-family: "SwearDeck-BoldItalic"; text-decoration: none !important; }
-b > i > u { font-family: "SwearDeck-BoldItalic"; text-decoration: none !important; }
+i > u { font-family: "SwearDeck-Italic"; text-decoration: none !important; }
+b > i > u, i > u > b { font-family: "SwearDeck-BoldItalic"; text-decoration: none !important; }
 
 b > i > u {
     background-color: #f1f1f1;
