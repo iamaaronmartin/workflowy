@@ -230,6 +230,13 @@ a.expand svg * {
     color: #E7E9E9;
 }
 
+a.contentLink {
+    color: #5258F5 !important;
+    font-family: "DegularText-Regular" !important;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+
 a.contentLink::before {
     border-radius: 18px;
     color: #fff;
@@ -237,11 +244,34 @@ a.contentLink::before {
     margin-right: 8px;
 }
 
-a.contentLink {
-    color: #5258F5 !important;
-    font-family: "DegularText-Regular" !important;
-    font-size: 14px;
-    text-decoration: none !important;
+a.contentLink[href^="https://ridgelineapps.atlassian.net/wiki/"]::before {
+    background-image: url("https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-08-02/411333418582_25121c9357c97c58ff9b_512.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " " !important;
+    display: inline-block;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 4px;
+    width: 16px;
+}
+
+a.contentLink[href^="https://ridgelineapps.atlassian.net/browse/"]::before {
+    background-image: url("https://wac-cdn-2.atlassian.com/image/upload/f_auto,q_auto/dam/jcr:9bf17e0a-6c3c-499d-82f4-b8e426853db6/logos-jira%20software-icon-gradient-blue.svg?cdnVersion=1641");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " " !important;
+    display: inline-block;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 4px;
+    width: 16px;
 }
 
 .itemMenu svg * {
@@ -314,3 +344,61 @@ b > i > u {
 .task.matches > .fullMatch.matches > .content > .innerContentContainer > .contentTag > .contentTagText {
     color: inherit !important;
 }
+
+
+
+
+
+
+/* Change to numbered list */
+
+.one-item-item a.bullet svg {
+    display: none !important;
+}
+
+.one-item-item a.bullet::before {
+    border-radius: 18px;
+    color: #000;
+    content: "1";
+    font-size: 85%;
+    font-weight: 700;
+    margin-left: 6px;
+}
+
+.one-item-item .contentTag[title="Filter @one-item"],
+.one-item-item .contentTag[title="Filter @one-item"] > .contentTagText {
+    background-color: #fff !important;
+    color: #fff !important;
+}
+
+
+.two-item-item a.bullet svg {
+    display: none !important;
+}
+
+.two-item-item a.bullet::before {
+    border-radius: 18px;
+    color: #000;
+    content: "2";
+    font-size: 85%;
+    font-weight: 700;
+    margin-left: 6px;
+}
+
+.three-item-item a.bullet svg {
+    display: none !important;
+}
+
+.three-item-item a.bullet::before {
+    border-radius: 18px;
+    color: #000;
+    content: "3";
+    font-size: 85%;
+    font-weight: 700;
+    margin-left: 6px;
+}
+
+
+
+
+
