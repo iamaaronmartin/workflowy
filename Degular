@@ -46,6 +46,17 @@ body * {
     border-bottom: 0px solid !important;
 }
 
+.project.selected > .name > .content > .innerContentContainer > .contentLink {
+    font-family: "SwearBanner-Regular" !important;
+    font-size: 100% !important;
+    text-decoration: none !important;
+    border-bottom: 0px solid !important;
+}
+
+.project.selected > .name > .content > .innerContentContainer > a.contentLink::before {
+    display: none !important;
+}
+
 .project.selected > .notes {
     margin-top: 0px !important;
     margin-bottom: 40px !important;
@@ -244,18 +255,36 @@ a.contentLink::before {
     margin-right: 8px;
 }
 
+/* Custom icons for specific URLs */
+
 a.contentLink[href^="https://ridgelineapps.atlassian.net/wiki/"]::before {
     background-image: url("https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-08-02/411333418582_25121c9357c97c58ff9b_512.png");
     background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    border-radius: 0px;
     content: " " !important;
     display: inline-block;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
-    top: 4px;
+    top: 5px;
+    width: 16px;
+}
+
+a.contentLink[href^="https://podcasts.apple.com/"]::before {
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: "🎙" !important;
+    display: inline-block;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
     width: 16px;
 }
 
@@ -264,14 +293,107 @@ a.contentLink[href^="https://ridgelineapps.atlassian.net/browse/"]::before {
     background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    border-radius: 0px;
     content: " " !important;
     display: inline-block;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
-    top: 4px;
+    top: 5px;
     width: 16px;
+}
+
+a.contentLink[href^="https://docs.google.com/document/"]::before {
+    background-image: url("https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.contentLink[href^="https://docs.google.com/spreadsheets/"]::before {
+    background-image: url("https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.contentLink[href^="https://docs.google.com/presentation/"]::before {
+    background-image: url("https://ssl.gstatic.com/docs/presentations/images/favicon5.ico");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.contentLink[href^="https://www.youtube.com/watch"]::before,
+a.contentLink[href^="https://youtu.be/"]::before {
+    background-image: url("https://www.youtube.com/s/desktop/07cfff5b/img/favicon_32x32.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.contentLink[href^="https://www.figma.com/file/"]::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.contentLink[href^="https://workflowy.com"] {
+    color: #002322;
+}
+
+a.contentLink[href^="https://workflowy.com"]::before {
+    border-radius: 18px;
+    color: inherit;
+    content: "←";
+    margin-right: 4px;
 }
 
 .itemMenu svg * {
@@ -344,9 +466,6 @@ b > i > u {
 .task.matches > .fullMatch.matches > .content > .innerContentContainer > .contentTag > .contentTagText {
     color: inherit !important;
 }
-
-
-
 
 
 
