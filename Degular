@@ -274,17 +274,18 @@ a.contentLink[href^="https://ridgelineapps.atlassian.net/wiki/"]::before {
 }
 
 a.contentLink[href^="https://podcasts.apple.com/"]::before {
+    background-image: url("https://www.apple.com/v/apple-podcasts/b/images/overview/hero_icon__c135x5gz14mu_large_2x.png");
     background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 0px;
-    content: "🎙" !important;
+    content: " " !important;
     display: inline-block;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
-    top: 2px;
+    top: 5px;
     width: 16px;
 }
 
