@@ -13,7 +13,7 @@ Header typeface: Swear
 body * {
     color: #002322;
     font-family: "DegularText-Regular";
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
@@ -161,13 +161,15 @@ body * {
 }
 
 .project > .name > .content {
-    margin-top: -2px !important;
-    padding-top: 4px !important;
+    margin-top: -1px !important;
+    padding-top: 3px !important;
 }
 
 .project.boardColumn {
     flex-basis: 480px !important;
 }
+
+
 
 /* Done ============================================ */
 
@@ -252,7 +254,11 @@ a.contentLink::before {
     border-radius: 18px;
     color: #fff;
     content: "🔗";
-    margin-right: 8px;
+    margin-right: 10px;
+}
+
+.image--graybox {
+    background-color: transparent !important;
 }
 
 /* Custom icons for specific URLs */
@@ -460,7 +466,7 @@ b > i > u {
 .uncompletedDescendantMatches > .name.fullMatch > .content > .innerContentContainer,
 .uncompletedDescendantMatches > .name.fullMatch > .content > .innerContentContainer > time {
     color: #002322 !important;
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 
 .task.matches > .fullMatch.matches > .content * > .contentTag > .contentTagText,
