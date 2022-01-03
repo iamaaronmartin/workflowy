@@ -434,6 +434,19 @@ b > i > u {
     text-decoration: none !important;
 }
 
+    b > i > u > a.contentLink,
+    i > u > b > a.contentLink,
+    b > i > u > a.contentLink {
+        font-family: inherit !important;
+        font-size: inherit !important;
+        text-decoration: underline !important;
+    }
+
+b > i > u > a.contentLink::before ,
+    i > u > b > a.contentLink::before ,
+    b > i > u > a.contentLink::before {
+        display: none;
+    }
 
 
 /* Search results ============================================ */
