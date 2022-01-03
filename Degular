@@ -418,6 +418,7 @@ u { text-decoration: none !important; background-color: #F8EFCF; padding: 2px 4p
 b > i { font-family: "DegularText-BoldItalic"; }
 b > u { font-family: "SwearDeck-Bold"; text-decoration: none !important; }
 i > u { font-family: "SwearDeck-Italic"; text-decoration: none !important; }
+
 b > i > u, i > u > b { font-family: "SwearDeck-BoldItalic"; text-decoration: none !important; }
 
 b > i > u {
@@ -442,11 +443,33 @@ b > i > u {
         text-decoration: underline !important;
     }
 
-b > i > u > a.contentLink::before ,
+    b > i > u > a.contentLink::before ,
     i > u > b > a.contentLink::before ,
     b > i > u > a.contentLink::before {
         display: none;
     }
+
+/*
+
+---------------------
+Super fun pullquote styles?
+---------------------
+
+b > i > u, i > u > b { font-family: "SwearDeck-BoldItalic"; text-decoration: none !important; }
+
+b > i > u {
+    background-color: transparent;
+    border: none;
+    display: block !important;
+    font-family: "SwearDeck-Italic";
+    font-size: 180% !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    max-width: 450px;
+    text-decoration: none !important;
+}
+*/
 
 
 /* Search results ============================================ */
