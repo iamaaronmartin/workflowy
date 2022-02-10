@@ -392,6 +392,40 @@ a.contentLink[href^="https://www.figma.com/file/"]::before {
     width: 16px;
 }
 
+a.contentLink[href^="https://ridgelineapps.productboard.com/"]::before {
+    background-image: url("https://cdn.productboard.com/nucleus/favicons/favicon-144x144.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.contentLink[href^="https://ridgelineapps.atlassian.net/jira/"]::before {
+    background-image: url("https://ridgelineapps.atlassian.net/s/-dtzt95/b/6/e9f7ec37148d498dec163fdd24e2e7c3/_/favicon-software.ico");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+
+
 a.contentLink[href^="https://workflowy.com"] {
     color: #002322;
 }
@@ -559,3 +593,8 @@ b > i > u {
     font-weight: 700;
     margin-left: 6px;
 }
+
+
+
+
+
