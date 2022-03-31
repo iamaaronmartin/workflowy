@@ -254,6 +254,7 @@ a.contentLink::before {
     border-radius: 18px;
     color: #fff;
     content: "🔗";
+    font-size: 10px;
     margin-right: 10px;
 }
 
@@ -272,6 +273,7 @@ a.contentLink[href^="https://ridgelineapps.atlassian.net/wiki/"]::before {
     border-radius: 0px;
     content: " " !important;
     display: inline-block;
+    font-size: 14px;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
@@ -288,6 +290,7 @@ a.contentLink[href^="https://podcasts.apple.com/"]::before {
     border-radius: 0px;
     content: " " !important;
     display: inline-block;
+    font-size: 14px;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
@@ -304,6 +307,7 @@ a.contentLink[href^="https://ridgelineapps.atlassian.net/browse/"]::before {
     border-radius: 0px;
     content: " " !important;
     display: inline-block;
+    font-size: 14px;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
@@ -320,6 +324,7 @@ a.contentLink[href^="https://docs.google.com/document/"]::before {
     border-radius: 0px;
     content: " " !important;
     display: inline-block;
+    font-size: 14px;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
@@ -336,6 +341,7 @@ a.contentLink[href^="https://docs.google.com/spreadsheets/"]::before {
     border-radius: 0px;
     content: " " !important;
     display: inline-block;
+    font-size: 14px;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
@@ -352,6 +358,7 @@ a.contentLink[href^="https://docs.google.com/presentation/"]::before {
     border-radius: 0px;
     content: " " !important;
     display: inline-block;
+    font-size: 14px;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
@@ -369,6 +376,7 @@ a.contentLink[href^="https://youtu.be/"]::before {
     border-radius: 0px;
     content: " " !important;
     display: inline-block;
+    font-size: 14px;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
@@ -385,6 +393,7 @@ a.contentLink[href^="https://www.figma.com/file/"]::before {
     border-radius: 0px;
     content: " " !important;
     display: inline-block;
+    font-size: 14px;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
@@ -401,6 +410,7 @@ a.contentLink[href^="https://ridgelineapps.productboard.com/"]::before {
     border-radius: 0px;
     content: " " !important;
     display: inline-block;
+    font-size: 14px;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
@@ -417,6 +427,7 @@ a.contentLink[href^="https://ridgelineapps.atlassian.net/jira/"]::before {
     border-radius: 0px;
     content: " " !important;
     display: inline-block;
+    font-size: 14px;
     height: 16px; /* You must set a specified height */
     margin-right: 8px;
     position: relative;
@@ -424,6 +435,22 @@ a.contentLink[href^="https://ridgelineapps.atlassian.net/jira/"]::before {
     width: 16px;
 }
 
+a.contentLink[href^="https://ridgelineapps.slack.com/"]::before {
+    background-image: url("https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
 
 
 a.contentLink[href^="https://workflowy.com"] {
